@@ -1,0 +1,41 @@
+[debug] [2018-05-30T02:03:14.069Z] ----------------------------------------------------------------------
+[debug] [2018-05-30T02:03:14.072Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Angel\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-05-30T02:03:14.073Z] CLI Version:   3.18.5
+[debug] [2018-05-30T02:03:14.073Z] Platform:      win32
+[debug] [2018-05-30T02:03:14.073Z] Node Version:  v8.11.2
+[debug] [2018-05-30T02:03:14.073Z] Time:          Tue May 29 2018 21:03:14 GMT-0500 (Hora de verano central (México))
+[debug] [2018-05-30T02:03:14.074Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-30T02:03:14.100Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-30T02:03:14.101Z] > authorizing via signed-in user
+[debug] [2018-05-30T02:03:14.104Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-30T02:03:14.104Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/sKW89mtCLzKlOlEE8MU9uNhqMi8t9Lm1jcx7s3sfQHs',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue May 29 2018 21:03:14 GMT-0500 (Hora de verano central (México))
+[debug] [2018-05-30T02:03:14.334Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-30T02:03:14.377Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/cintaroja20-c8fc3  
+  
+ Tue May 29 2018 21:03:14 GMT-0500 (Hora de verano central (México))
+[debug] [2018-05-30T02:03:14.824Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-30T02:03:14.825Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/cintaroja20-c8fc3/tokens  
+  
+ Tue May 29 2018 21:03:14 GMT-0500 (Hora de verano central (México))
+[debug] [2018-05-30T02:03:15.147Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-30T02:03:15.148Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/cintaroja20-c8fc3  
+  
+ Tue May 29 2018 21:03:15 GMT-0500 (Hora de verano central (México))
+[debug] [2018-05-30T02:03:15.541Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Angel\Desktop\Dev.f\Cinta roja\Trabajo\cintarojabatch20\JAngelGRuiz\Firebase'...
+[info] 
+[debug] [2018-05-30T02:03:15.543Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/85803761675/clients/_:getWebAppConfig  
+  
+ Tue May 29 2018 21:03:15 GMT-0500 (Hora de verano central (México))
+[debug] [2018-05-30T02:03:15.901Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
