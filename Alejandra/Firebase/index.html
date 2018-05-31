@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    
+</head>
+<body>
+  
+    <button id="login" style="height: 50px; width: 200px"> iniciar sesion</button>
+    <button id="logout" style="height: 50px; width: 200px"> cerrar sesion</button>
+
+  <input type="text"  id="nombre" placeholder="nombre">
+
+  <input type="text"  id="apellido" placeholder="apellido">
+
+  <input type="text"  id="genero" placeholder="genero">
+
+  <input type="text"  id="ocupacion" placeholder="ocupacion">
+  <button id="guardar" style="height: 50px; width:200px">Guardar</button>
+
+
+  <input type="text"  id="identificacion" placeholder="identificacion">
+
+  <button id="borrar" style="height: 50px; width:200px">Borrar</button>
+
+
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCj5YfDKG8R4X1KOlC7sHmEDEIhDHCQCb8",
+    authDomain: "plataforma-a262d.firebaseapp.com",
+    databaseURL: "https://plataforma-a262d.firebaseio.com",
+    projectId: "plataforma-a262d",
+    storageBucket: "plataforma-a262d.appspot.com",
+    messagingSenderId: "946891461528"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="main.js"></script>
+</body>
+</html>
