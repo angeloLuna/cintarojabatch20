@@ -7,6 +7,7 @@ let ocupacion = document.getElementById("ocupacion");
 let genero = document.getElementById("genero");
 let borrar = document.getElementById("borrar");
 let UID = document.getElementById("UID");
+let datusuarios = document.getElementById("usuarios");
 
 
 
@@ -93,4 +94,19 @@ borrar.addEventListener("click",()=>{
 
 	
 	
+})
+
+ref.once("value",(data)=>{
+	console.log("XD",data.val())
+		let dat = data.val()
+		let nombres = ""
+	for(let i in dat){
+		
+		console.log(dat[i].nombre);
+		nombres += dat[i].nombre + " ";
+
+
+	}
+
+	datusuarios.innerHTML = nombres;
 })
