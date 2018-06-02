@@ -100,6 +100,8 @@ btnGuardar.addEventListener("click", ()=>{
 })
 
 //se jala el valor que hay en la base de datos.. es importante el .val()
+//con ref.on es para que la data base se actualice en tiempo real
+//con .once solo se hace 1 vez y hay que recargar la página para actualizar
 ref.on('value', (data)=>{
   console.log("lol",data.val())
   let dat = data.val()
