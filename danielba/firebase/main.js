@@ -7,7 +7,8 @@ let apellido = document.getElementById("apellido");
 let genero = document.getElementById("genero");
 let ocupacion = document.getElementById("ocupacion");
 let btGuardar = document.getElementById("guardar");
-let btBorrar = document.getElementById("borrar")
+let btBorrar = document.getElementById("borrar");
+let dataUsuario = document.getElementById("dataUsuario");
 
 
 //referencia a la base de datos
@@ -91,6 +92,23 @@ btBorrar.addEventListener("click", ()=>{
 })
 
 
+//con once solo carga una vez
+
+ref.on('value', (data)=>{
+  console.log("XD",data.val())
+
+  let dat = data.val()
+  let nombres = ""
+
+  for(let i in dat ){
+
+
+    console.log(dat[i].nombre);
+    nombres += dat[i].nombre + " ";
+
+  }
+  dataUsuario.innerHTML = nombres;
+})
 
 
 
