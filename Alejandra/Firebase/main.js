@@ -12,7 +12,7 @@ let apellido = document.getElementById("apellido");
 let genero = document.getElementById("genero");
 let ocupacion = document.getElementById("ocupacion");
 let identificacion = document.getElementById("identificacion");
-
+let dataUsuario = document.getElementById("dataUsuario");
 
 
 //referencia de base de datos
@@ -84,6 +84,18 @@ btnBorrar.addEventListener("click", () => {
     }).catch((error) =>{
         console.log(error)
     })
+})
+
+ref.on('value', function(data){
+    console.log("XD",data.val())
+    let dat = data.val()
+    let nombres = " "
+    for(let i in dat){
+        console.log(dat[i].nombre);
+        nombres += dat[i].nombre + " ";
+    }
+    dataUsuario.innerHTML = nombres;
+
 })
 
 //push
