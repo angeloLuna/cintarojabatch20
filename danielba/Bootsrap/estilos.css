@@ -1,0 +1,14 @@
+.contenedor {
+  border: 1px solid blue; 
+}
+
+.papa{
+  height: 50px;
+  border: 1px solid green;
+}
+
+.hijo{
+  height: 50px;
+  border: 1px solid;
+
+}
