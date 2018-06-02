@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Firebase for the win!!!</title>
+</head>
+<body>
+  <button id="login" style="height: 50px; width: 200px">inicar sesión</button>
+
+  <button id="logout" style="height: 50px; width: 200px">Cerrar sesión</button>
+
+  <input type="text" id="nombre" placeholder="nombre">
+
+  <button id="guardar" style="height: 50px; width: 200px">Guardar</button>
+  <p id="dataUsuario"></p>
+  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBrMFqirPW4FZ8aCBB_cM3a-alhPfVMg8A",
+      authDomain: "cintaroja20-e657a.firebaseapp.com",
+      databaseURL: "https://cintaroja20-e657a.firebaseio.com",
+      projectId: "cintaroja20-e657a",
+      storageBucket: "cintaroja20-e657a.appspot.com",
+      messagingSenderId: "112915130636"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>
