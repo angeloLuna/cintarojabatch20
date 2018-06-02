@@ -11,3 +11,17 @@
   height: 50px;
   border: 1px solid;
 }
+
+.grid{
+  height: 20px;
+  width: 20px;
+}
+
+.material-icons {
+  border-left: 6px solid;
+  height: 500px;
+  position: absolute;
+  left: 90%;
+  margin-left: -3px;
+  top: 0;
+}
