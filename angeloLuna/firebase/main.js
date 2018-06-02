@@ -3,6 +3,7 @@ let btnLogin = document.getElementById("login");
 let btnLogout = document.getElementById("logout");
 let btnGuardar = document.getElementById("guardar");
 let nombre = document.getElementById("nombre");
+let dataUsuario = document.getElementById("dataUsuario");
 
 // Referencia a la base de datos
 const ref = firebase.database().ref("usuarios");
@@ -65,11 +66,20 @@ btnGuardar.addEventListener("click", ()=>{
   }).catch((error)=>{
     console.log(error)
   })
-
-
 })
 
 
+ref.once('value', function(data){
+  console.log("XD",data.val())
+  let dat = data.val()
+  let nombres = ""
+  for(let i in dat){
+
+    console.log(dat[i].nombre);
+    nombres += dat[i].nombre + " ";
+  }
+  dataUsuario.innerHTML = nombres;
+})
 
 
 
