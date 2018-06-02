@@ -1,0 +1,123 @@
+[debug] [2018-05-30T04:15:32.286Z] ----------------------------------------------------------------------
+[debug] [2018-05-30T04:15:32.288Z] Command:       /Users/caroline/.nvm/versions/node/v8.11.2/bin/node /usr/local/bin/firebase serve
+[debug] [2018-05-30T04:15:32.288Z] CLI Version:   3.17.4
+[debug] [2018-05-30T04:15:32.288Z] Platform:      darwin
+[debug] [2018-05-30T04:15:32.288Z] Node Version:  v8.11.2
+[debug] [2018-05-30T04:15:32.289Z] Time:          Tue May 29 2018 23:15:32 GMT-0500 (CDT)
+[debug] [2018-05-30T04:15:32.289Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-30T04:15:32.325Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-30T04:15:32.326Z] > authorizing via signed-in user
+[debug] [2018-05-30T04:15:32.329Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-30T04:15:32.330Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/xNDdVcyi9DXDQLJ0JzG7ohZBK1yblAXh3aCgRlhcWtATJYoWIXcbFnRj56fQ5CS_',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue May 29 2018 23:15:32 GMT-0500 (CDT)
+[debug] [2018-05-30T04:15:32.721Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-30T04:15:32.743Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/talks-you-should-watch-9382e  
+  
+ Tue May 29 2018 23:15:32 GMT-0500 (CDT)
+[debug] [2018-05-30T04:15:33.292Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-30T04:15:33.292Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/talks-you-should-watch-9382e/tokens  
+  
+ Tue May 29 2018 23:15:33 GMT-0500 (CDT)
+[debug] [2018-05-30T04:15:33.712Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/caroline/Desktop/cintaroja20/caroline/firebase'...
+[info] 
+[debug] [2018-05-30T04:15:33.718Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/talks-you-should-watch-9382e  
+  
+ Tue May 29 2018 23:15:33 GMT-0500 (CDT)
+[debug] [2018-05-30T04:15:34.157Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-30T04:15:34.158Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/254585324665/clients/_:getWebAppConfig  
+  
+ Tue May 29 2018 23:15:34 GMT-0500 (CDT)
+[debug] [2018-05-30T04:15:35.252Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-05-31T00:39:04.247Z] ----------------------------------------------------------------------
+[debug] [2018-05-31T00:39:04.249Z] Command:       /Users/caroline/.nvm/versions/node/v8.11.2/bin/node /usr/local/bin/firebase serve
+[debug] [2018-05-31T00:39:04.249Z] CLI Version:   3.17.4
+[debug] [2018-05-31T00:39:04.249Z] Platform:      darwin
+[debug] [2018-05-31T00:39:04.249Z] Node Version:  v8.11.2
+[debug] [2018-05-31T00:39:04.250Z] Time:          Wed May 30 2018 19:39:04 GMT-0500 (CDT)
+[debug] [2018-05-31T00:39:04.250Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-31T00:39:04.278Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-31T00:39:04.279Z] > authorizing via signed-in user
+[debug] [2018-05-31T00:39:04.280Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-31T00:39:04.281Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/xNDdVcyi9DXDQLJ0JzG7ohZBK1yblAXh3aCgRlhcWtATJYoWIXcbFnRj56fQ5CS_',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed May 30 2018 19:39:04 GMT-0500 (CDT)
+[debug] [2018-05-31T00:39:04.606Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-31T00:39:04.622Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/talks-you-should-watch-9382e  
+  
+ Wed May 30 2018 19:39:04 GMT-0500 (CDT)
+[debug] [2018-05-31T00:39:05.758Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-31T00:39:05.759Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/talks-you-should-watch-9382e/tokens  
+  
+ Wed May 30 2018 19:39:05 GMT-0500 (CDT)
+[debug] [2018-05-31T00:39:06.098Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/caroline/Desktop/cintaroja20/caroline/firebase'...
+[info] 
+[debug] [2018-05-31T00:39:06.103Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/talks-you-should-watch-9382e  
+  
+ Wed May 30 2018 19:39:06 GMT-0500 (CDT)
+[debug] [2018-05-31T00:39:06.578Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-31T00:39:06.579Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/254585324665/clients/_:getWebAppConfig  
+  
+ Wed May 30 2018 19:39:06 GMT-0500 (CDT)
+[debug] [2018-05-31T00:39:06.995Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-06-01T02:15:22.126Z] ----------------------------------------------------------------------
+[debug] [2018-06-01T02:15:22.128Z] Command:       /Users/caroline/.nvm/versions/node/v8.11.2/bin/node /usr/local/bin/firebase serve
+[debug] [2018-06-01T02:15:22.128Z] CLI Version:   3.17.4
+[debug] [2018-06-01T02:15:22.128Z] Platform:      darwin
+[debug] [2018-06-01T02:15:22.128Z] Node Version:  v8.11.2
+[debug] [2018-06-01T02:15:22.129Z] Time:          Thu May 31 2018 21:15:22 GMT-0500 (CDT)
+[debug] [2018-06-01T02:15:22.129Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-01T02:15:22.157Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-01T02:15:22.158Z] > authorizing via signed-in user
+[debug] [2018-06-01T02:15:22.160Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-06-01T02:15:22.160Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/xNDdVcyi9DXDQLJ0JzG7ohZBK1yblAXh3aCgRlhcWtATJYoWIXcbFnRj56fQ5CS_',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu May 31 2018 21:15:22 GMT-0500 (CDT)
+[debug] [2018-06-01T02:15:22.392Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-01T02:15:22.405Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/talks-you-should-watch-9382e  
+  
+ Thu May 31 2018 21:15:22 GMT-0500 (CDT)
+[debug] [2018-06-01T02:15:22.800Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-01T02:15:22.802Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/talks-you-should-watch-9382e/tokens  
+  
+ Thu May 31 2018 21:15:22 GMT-0500 (CDT)
+[debug] [2018-06-01T02:15:23.424Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/caroline/Desktop/cintaroja20/caroline/firebase'...
+[info] 
+[debug] [2018-06-01T02:15:23.429Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/talks-you-should-watch-9382e  
+  
+ Thu May 31 2018 21:15:23 GMT-0500 (CDT)
+[debug] [2018-06-01T02:15:23.758Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-01T02:15:23.759Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/254585324665/clients/_:getWebAppConfig  
+  
+ Thu May 31 2018 21:15:23 GMT-0500 (CDT)
+[debug] [2018-06-01T02:15:24.447Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000
+
