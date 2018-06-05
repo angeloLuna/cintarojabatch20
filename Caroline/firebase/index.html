@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Firebase</title>
+</head>
+<body>
+    <button id="login" style="height: 50px; width: 200px; background: #87CEFA; margin-bottom: 20px">Iniciar sesión</button>
+    <button id="logout" style="height: 50px; width: 200px; background: grey">cerrar sesión</button>
+    Nombre </br><input type="text" id="nombre" placeholder="nombre" style="height: 20px; border: 1px solid black; margin-bottom: 10px"></br>
+    Apellido </br><input type="text" id="apellido" placeholder="apellido" style="height: 20px; border: 1px solid black; margin-bottom: 10px"></br>
+    Occupación </br><input type="text" id="occupacion" placeholder="occupación" style="height: 20px; border: 1px solid black; margin-bottom: 10px"></br>
+    Genero </br><input type="text" id="genero" placeholder="genero" style="height: 20px; border: 1px solid black; margin-bottom: 10px"></br>
+    <button id="guardar" style="height: 30px; width: 150px; background: green; margin-bottom: 10px">GUARDAR</button></br>
+    ID</br><input type="text" id="identificador" placeholder="ID" style="height: 20px; border: 1px solid black; margin-bottom: 10px;"></br>
+    <button id="borrar" style="height: 30px; width: 150px; background: red">BORRAR</button>
+    <p id="dataUsuario"></p>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyAaz2DRVTJP1fh811q2tAcA6gkk3u1jNe0",
+        authDomain: "talks-you-should-watch-9382e.firebaseapp.com",
+        databaseURL: "https://talks-you-should-watch-9382e.firebaseio.com",
+        projectId: "talks-you-should-watch-9382e",
+        storageBucket: "talks-you-should-watch-9382e.appspot.com",
+        messagingSenderId: "254585324665"
+    };
+    firebase.initializeApp(config);
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
