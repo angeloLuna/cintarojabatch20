@@ -1,0 +1,87 @@
+[debug] [2018-05-30T02:03:24.771Z] ----------------------------------------------------------------------
+[debug] [2018-05-30T02:03:24.774Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-05-30T02:03:24.774Z] CLI Version:   3.18.5
+[debug] [2018-05-30T02:03:24.774Z] Platform:      darwin
+[debug] [2018-05-30T02:03:24.774Z] Node Version:  v8.10.0
+[debug] [2018-05-30T02:03:24.775Z] Time:          Tue May 29 2018 21:03:24 GMT-0500 (CDT)
+[debug] [2018-05-30T02:03:24.775Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-30T02:03:24.786Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-30T02:03:24.786Z] > authorizing via signed-in user
+[debug] [2018-05-30T02:03:24.788Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-30T02:03:24.788Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/N-_oV7VmPfZqiOiaPhpFQyJpBwPbYdYvcA5EKNHFDpM',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue May 29 2018 21:03:24 GMT-0500 (CDT)
+[debug] [2018-05-30T02:03:25.267Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-30T02:03:25.274Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/plataforma-a262d  
+  
+ Tue May 29 2018 21:03:25 GMT-0500 (CDT)
+[debug] [2018-05-30T02:03:25.815Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-30T02:03:25.816Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/plataforma-a262d/tokens  
+  
+ Tue May 29 2018 21:03:25 GMT-0500 (CDT)
+[debug] [2018-05-30T02:03:26.328Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-30T02:03:26.330Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/plataforma-a262d  
+  
+ Tue May 29 2018 21:03:26 GMT-0500 (CDT)
+[debug] [2018-05-30T02:03:26.857Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/Alejandra/Documents/DEVF/GitHubBatch20/cintarojabatch20/Alejandra/Firebase'...
+[info] 
+[debug] [2018-05-30T02:03:26.859Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/946891461528/clients/_:getWebAppConfig  
+  
+ Tue May 29 2018 21:03:26 GMT-0500 (CDT)
+[debug] [2018-05-30T02:03:27.198Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-06-01T02:13:29.388Z] ----------------------------------------------------------------------
+[debug] [2018-06-01T02:13:29.390Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-06-01T02:13:29.391Z] CLI Version:   3.18.5
+[debug] [2018-06-01T02:13:29.391Z] Platform:      darwin
+[debug] [2018-06-01T02:13:29.391Z] Node Version:  v8.10.0
+[debug] [2018-06-01T02:13:29.392Z] Time:          Thu May 31 2018 21:13:29 GMT-0500 (CDT)
+[debug] [2018-06-01T02:13:29.392Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-01T02:13:29.408Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-01T02:13:29.408Z] > authorizing via signed-in user
+[debug] [2018-06-01T02:13:29.410Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-06-01T02:13:29.411Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/N-_oV7VmPfZqiOiaPhpFQyJpBwPbYdYvcA5EKNHFDpM',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu May 31 2018 21:13:29 GMT-0500 (CDT)
+[debug] [2018-06-01T02:13:29.979Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-01T02:13:29.987Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/plataforma-a262d  
+  
+ Thu May 31 2018 21:13:29 GMT-0500 (CDT)
+[debug] [2018-06-01T02:13:30.424Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-01T02:13:30.425Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/plataforma-a262d/tokens  
+  
+ Thu May 31 2018 21:13:30 GMT-0500 (CDT)
+[debug] [2018-06-01T02:13:30.972Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-01T02:13:30.973Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/plataforma-a262d  
+  
+ Thu May 31 2018 21:13:30 GMT-0500 (CDT)
+[debug] [2018-06-01T02:13:32.071Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/Alejandra/Documents/DEVF/GitHubBatch20/cintarojabatch20/Alejandra/Firebase'...
+[info] 
+[debug] [2018-06-01T02:13:32.074Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/946891461528/clients/_:getWebAppConfig  
+  
+ Thu May 31 2018 21:13:32 GMT-0500 (CDT)
+[debug] [2018-06-01T02:13:32.846Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2018-06-01T02:13:32.868Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/946891461528/clients/_:getWebAppConfig  
+  
+ Thu May 31 2018 21:13:32 GMT-0500 (CDT)
+[debug] [2018-06-01T02:13:33.191Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5004
+

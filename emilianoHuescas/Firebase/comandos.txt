@@ -1,0 +1,267 @@
+    1  ls
+    2  pwd
+    3  ls -a
+    4  clear
+    5  cd Documents/
+    6  cd ..
+    7  cd Documents/
+    8  Documents ls
+    9  ls
+   10  cd ..
+   11  cd Desktop/
+   12  ls
+   13  cd Devf/
+   14  ls
+   15  cd CintaBlanca/
+   16  ls
+   17  mkdir terminal
+   18  ls
+   19  ced terminal/
+   20  cd terminal/
+   21  touch test.txt
+   22  cd ..
+   23  ls
+   24  mkdir terminal2
+   25  l
+   26  ls
+   27  cd terminal
+   28  ls
+   29  pwd
+   30  mv test.txt ../terminal2
+   31  ls
+   32  cd ..
+   33  cd terminal2
+   34  ls
+   35  cd ..
+   36  mv terminal2/test.txt terminal
+   37  cd terminal
+   38  ls
+   39  mv test.txt hola.txt
+   40  ls
+   41  cp hola.txt ../terminal2
+   42  cp hola.txt hola2.txt
+   43  cd ..
+   44  mkdir a
+   45  mkdir b
+   46  cd a
+   47  mkdir c
+   48  cd ..
+   49  mkdir principal
+   50  mv a principal
+   51  mv b principal
+   52  cd principal
+   53  ls
+   54  cd a
+   55  ls
+   56  touch c.txt
+   57  cd ..
+   58  cd b
+   59  touch b.txt
+   60  ls
+   61  cd ..
+   62  cd ..
+   63  mkdir segunda
+   64  segunda segunda/a
+   65  ls
+   66  mkdir segunda a
+   67  mkdir segunda/ a
+   68  segunda/ mkdir a
+   69  mkdir segunda a
+   70  mkdir CintaBlanca/segunda a
+   71  mkdir segunda/ a/
+   72  mkdie segunda/a/
+   73  mkdir segunda/a/
+   74  mkdir segunda/b/
+   75  mkdir segunda/a/c/
+   76  touch segunda/a/c/ c.txt
+   77  touch segunda/b/ b.txt
+   78  touch segunda/b/b2.txt
+   79  ls
+   80  ce documents
+   81  cd documents
+   82  ls
+   83  cd ..
+   84  cd desktop
+   85  cd devf
+   86  cd cintablanca
+   87  ls
+   88  cd terminal
+   89  ls
+   90  cat hola.txt
+   91  ..
+   92  cd ..
+   93  cd
+   94  ls
+   95  pwd
+   96  cd
+   97  ls
+   98  cd Desktop
+   99  ls
+  100  cd Devf
+  101  cd cintablanca
+  102  cd ..
+  103  cd ..
+  104  cd Facturas
+  105  ls
+  106  mkdir Facturas nuevas
+  107  ls
+  108  ls
+  109  pwd
+  110  ls
+  111  cd Desktop/
+  112  ls
+  113  cd Devf/
+  114  la
+  115  ls
+  116  cd CintaRoja
+  117  pwd
+  118  git config
+  119  global user.name emilianoHuescas
+  120  ..global
+  121  --global
+  122  ..
+  123  git config
+  124  git config --global user.name "emilianoHuescas"
+  125  git config --global user.email "cehj999@gmail.com"
+  126  ls
+  127  cd Desktop
+  128  cd Devf
+  129  mkdir Git
+  130  pwd
+  131  cd Git
+  132  pwd
+  133  git init
+  134  ls
+  135  ls -a
+  136  git status
+  137  touch index.html
+  138  git status
+  139  git add -A
+  140  git status
+  141  git commit -m "agregado index.html vacio"
+  142  ls
+  143  git status
+  144  git add-A
+  145  git add -A
+  146  git status
+  147  git commit -m "index modificado"
+  148  git log
+  149  git checkout
+  150  git checkout master
+  151  pwd
+  152  ls
+  153  cd ..
+  154  cd cintaroja
+  155  git status
+  156  git init
+  157  cd ..
+  158  cd Git
+  159  ks
+  160  ls
+  161  git status
+  162  git add -A
+  163  git status
+  164  git commit -m "Se agrego titulo"
+  165  git add -A
+  166  git commit -m "Se agrgo contenido al body"
+  167  git status
+  168  git log
+  169  pwd
+  170  cd ..
+  171  pwd
+  172  mkdir practicaGithub
+  173  cd practicaGithub
+  174  git init
+  175  git remote add origin https://github.com/emilianoHuescas/intentodeConversacion.git
+  176  ls
+  177  touch index.html
+  178  git status
+  179  git add -A
+  180  git commit -m "index.html creado"
+  181  git staus
+  182  git status
+  183  git push origin master
+  184  git pull origin master
+  185  git status
+  186  git add -A
+  187  git commit -m "Pregunta detonadora y cambio de ubicacion de div"
+  188  git push origin master
+  189  git pull origin master
+  190  ls
+  191  cd desktop
+  192  la
+  193  ls
+  194  cd devf
+  195  la
+  196  ls
+  197  cd devw-recipe-assistente-master
+  198  ls
+  199  cd devw-recipe-assistente-master/
+  200  ls
+  201  cd ..
+  202  npm install
+  203  ls
+  204  cd devw-recipe-assistente-master/
+  205  npm install
+  206  node app.js
+  207  node app.js
+  208  node -v
+  209  npm -v
+  210  cd Desktop/
+  211  cd Devf/
+  212  cd CintaRoja/
+  213  mkdir
+  214  mkdir node1
+  215  npm init
+  216  cd Desktop/
+  217  cd devf
+  218  cd CintaRoja/
+  219  ls
+  220  cd node1/
+  221  npm init
+  222  ls
+  223  node main.js
+  224  npm install express --save
+  225  node main.js
+  226  node main.js
+  227  node main,js
+  228  node main.js
+  229  npm i -g nodemon
+  230  nodemon main.js
+  231  npm install --save-body-parser
+  232  npm install --save body-parser
+  233  ls
+  234  cd Desktop/
+  235  cd Devf/
+  236  ls
+  237  cd CintaRoja/
+  238  cd ..
+  239  git clone  https://github.com/emilianoHuescas/cintarojabatch20.git
+  240  ls
+  241  cd cintarojabatch20/
+  242  mkdir emilianoHuescas
+  243  git status
+  244  ls
+  245  git add -a
+  246  git add -A
+  247  git -m "carpeta emilianoHuescas creada"
+  248  git commit -m "carpeta emilianoHuescas creada"
+  249  git push origin master
+  250  ls
+  251  cd emilianoHuescas/
+  252  touch emilianoH.txt
+  253  git add -A
+  254  git commit -m "creacion de archivo emilianoH.txt"
+  255  git push origin master
+  256  ls
+  257  cd Firebase/
+  258  npm install -g firebase-tools
+  259  ls
+  260  firebase login
+  261  firebase login --interactive
+  262  firebase init
+  263  firebase init
+  264  firebase init
+  265  firebase serve
+  266  history
+  267  history >> comandos.txt
