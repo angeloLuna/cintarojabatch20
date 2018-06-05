@@ -1,0 +1,68 @@
+.navborder{ border: 1px solid grey;}
+.navbar { margin-bottom: 0;
+          padding-left: 15px;
+        padding-top: 0;
+      padding-right: 15px;
+    padding-bottom: 0;
+  height: 64px !important;
+}
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+/* Cuarpo */
+.org{
+  background-color: #ff5722;
+  color: white;
+  border: 0px;
+  hover: none;
+}
+.lista{
+  text-align: left;
+}
+.s{
+  width: 350px;
+}
+.o{
+  width: 120px;
+}
+.z{
+  width: 120px;
+}
+.ul{
+  list-style-type: none;
+}
+.uno{
+  text-align: center;
+}
+.izq{
+  text-align: right;
+  padding-right: 40px;
+}
+.der{
+  text-align: left;
+  padding-left: 40px;
+}
+.dos{
+  background-color: #5c4ce5;
+  text-align: center;
+  color: white;
+  height: 400px;
+}
+.tres{
+  text-align: center;
+}
+.cuatro{
+  text-align: center;
+  background-color: #80d9ff;
+  height: 400px;
+}
