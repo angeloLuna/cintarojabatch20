@@ -1,16 +1,3 @@
-.contenedor{
-  border: 1px solid red;
-}
-
-.papa{
-  height: 50px;
-  border: 1px solid blueviolet;
-}
-
-.hijo{
-  height: 50px;
-  border: 1px solid;
-}
 
 .grid{
   height: 20px;
@@ -18,10 +5,26 @@
 }
 
 .material-icons {
-  border-left: 6px solid;
-  height: 500px;
-  position: absolute;
-  left: 90%;
-  margin-left: -3px;
+  justify-content: flex-end;
   top: 0;
+}
+
+.logogp{
+  height: 40px;
+}
+
+.imggp{
+  width: 185px;
+  height: 190px;
+  margin-top: 20px;
+  margin-bottom: 24px;
+  vertical-align: center;
+}
+
+.lema{
+  color: gray;  
+}
+
+.plan{
+  text-align: center;
 }
