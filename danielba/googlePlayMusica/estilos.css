@@ -75,5 +75,12 @@
 }
 
 .img_sec3{
-  height: 90px;
+  height: 70px;
+}
+
+.h3{
+  font-size: 16px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: lighter;
+  color: grey;
 }
