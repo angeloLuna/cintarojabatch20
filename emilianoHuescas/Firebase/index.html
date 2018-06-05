@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Firebase FTW</title>
+</head>
+<body>
+  <button id="login" style="height: 50px; width: 200px">Iniciar sesión</button>
+  <button id="logout" style="height: 50px; width: 200px">Cerrar Sesión</button>
+
+  Nombre<input type="text" id="nombre" placeholder="nombre" >
+  Apellido<input type="text" id="apellido" pl aceholder="apellido" >
+  Ocupacion<input type="text" id="ocupacion" placeholder="ocupacion" >
+  Genero<input type="text" id="genero" placeholder="genero" >
+  <button id="guardar" style="height: 50px; width: 200px">Guardar</button>
+
+  UID<input type="text" id="UID" placeholder="UID" >
+  <button id="borrar" style="height: 50px; width: 200px">Borrar</button>
+
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDzhc6TuO1xM12FGpu5oQmahanB2G8oHSo",
+    authDomain: "cintaroja20eh.firebaseapp.com",
+    databaseURL: "https://cintaroja20eh.firebaseio.com",
+    projectId: "cintaroja20eh",
+    storageBucket: "cintaroja20eh.appspot.com",
+    messagingSenderId: "1073546150592"
+  };
+  firebase.initializeApp(config);
+</script>
+  
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

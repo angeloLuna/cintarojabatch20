@@ -1,0 +1,17 @@
+.contenedor{
+  border: 1px solid red;
+}
+
+.papa{
+  height: 50px;
+  border: 1px solid blue;
+}
+
+.hijo{
+    height: 50px;
+  border: 1px solid;
+}
+
+.navegacion{
+  padding-top: inherit;
+}
