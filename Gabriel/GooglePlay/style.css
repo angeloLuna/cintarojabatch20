@@ -1,3 +1,6 @@
+.body{
+  font-family: 'Nunito', sans-serif;
+}
 .navborder{ border: 1px solid grey;}
 .navbar { margin-bottom: 0;
           padding-left: 15px;
