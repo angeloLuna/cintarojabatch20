@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Firebase for the win</title>
+</head>
+<body>
+
+<button id="login" style="height: 50px; width: 200px ">Iniciar Sesión</button>
+<button id="logout" style="height: 50px; width: 200px">Cerrar Sesión</button>
+
+<input type="text" id="nombre" placeholder="nombre">
+<input type="text" id="apellido" placeholder="apellido">
+<input type="text" id="ocupacion" placeholder="ocupacion">
+<input type="text" id="genero" placeholder="genero">
+
+<button id="guardar" style="height: 50px; width: 200px">Guardar</button>
+<button id="borrar" style="height: 50px; width: 200px">Borrar</button>
+<input type="text" id="uid" placeholder="uid">
+
+
+
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBHI52bD8NE6K_ruP1q_i9CTFkL9qUsL54",
+    authDomain: "cintaroja20-c8fc3.firebaseapp.com",
+    databaseURL: "https://cintaroja20-c8fc3.firebaseio.com",
+    projectId: "cintaroja20-c8fc3",
+    storageBucket: "cintaroja20-c8fc3.appspot.com",
+    messagingSenderId: "85803761675"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src = "main.js"></script>
+
+</body>
+</html>

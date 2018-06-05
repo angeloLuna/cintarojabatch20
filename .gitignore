@@ -1,7 +1,9 @@
 /node_modules
 firebase-debug.log
+master
 .firebase
 .DS_Store 
 .DS_Store?
 .vscode
 .editorconfig
+
