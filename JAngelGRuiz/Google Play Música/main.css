@@ -27,6 +27,7 @@
   background-color: white;
   z-index: 2;
 }
+
 main {
   padding-top: 65px;
 }
@@ -128,7 +129,7 @@ main {
 /* SECTION DOWNLOAD */
 
 .download-music {
-  margin-bottom: 32px;
+  margin-bottom: 1px;
   background-image: url('https://play-music.gstatic.com/fe/ade5cd87c1ec836e1dea3f870f4ac473/record4.svg');
   background-color: #5c4ce5;
   color: white;
@@ -178,7 +179,7 @@ img{
   background-position: 6.6rem;
   height: 4.3rem;
   background-repeat: no-repeat;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
 }
 
 .table {
