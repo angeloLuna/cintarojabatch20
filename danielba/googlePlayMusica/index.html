@@ -28,7 +28,7 @@
                 </i>
               </div>
               <div class="col-7">
-                <button type="button" class="btn btn-primary btn-sm">Iniciar sesión</button>
+                <button type="button" class="btn btn-primary btn-sm" id="login">Iniciar sesión</button>
               </div>
               <div class="col-1"></div>
             </div>
@@ -81,26 +81,10 @@
           </div>
           <div class="col-12" style="margin-top: 40px">
             <div class="row">
-              <div class="col-3"></div>
-              <div class="col-2 d-flex justify-content-center">
-                <img class="img_sec3" src="img/disco.png" alt="">
-              </div>
-              <div class="col-2 d-flex justify-content-center">
-                <img class="img_sec3" src="img/dispositivos.png" alt="">
-              </div>
-              <div class="col-2 d-flex justify-content-center">
-                <img class="img_sec3" src="img/musica.png" alt="">
-              </div>
-              <div class="col-3"></div>
-            </div>
-          </div>
-
-          <div class="col-12" style="margin-top: 40px">
-            <div class="row">
               <div class="col-8 offset-2">
                 <div class="row">
                   <div class="col-4 d-flex justify-content-center">
-                    <h3 class="h3 d-flex justify-content-center">Accede lkjfakj cidad <br> jqksadjkj aksjdkja</h3>
+                    <img src="img/disco.png" class="img_sec3" alt="">
                   </div>
                   <div class="col-4 d-flex justify-content-center">
                     <img class="img_sec3" src="img/dispositivos.png" alt="">
@@ -112,20 +96,98 @@
               </div>
             </div>
           </div>
+          <div class="col-12" style="margin-top: 40px">
+            <div class="row">
+              <div class="col-8 offset-2">
+                <div class="row">
+                  <div class="col-4 d-flex justify-content-center">
+                    <h3 class="h3 d-flex justify-content-center">Accede a 40 millones canciones a <br> la carta y sin publicidad</h3>
+                  </div>
+                  <div class="col-4 d-flex justify-content-center">
+                    <h3 class="h3 d-flex justify-content-center">Escucha tu contenido en todos tus <br>dispositivos Android, iOS y en la<br> Web</h3>
+                  </div>
+                  <div class="col-4 d-flex justify-content-center">
+                    <h3 class="h3 d-flex justify-content-center">Descarga el contenido que quieras <br> y escúchalo aunque no tengas <br>conexión</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 offset-3 table-responsive" style="margin-top: 25px">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th class="col-6">Funciones</th>
+                  <th class="col-3 text-center">Gratis</th>
+                  <th class="col-3">Premium</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td id="funcion_1"></td>
+                  <td class="gratis">
+                    <div class="circle-gratis"></div>
+                  </td>
+                  <td class="premium">
+                    <div class="circle-premium"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td id="funcion_2"></td>
+                  <td class="gratis">
+                    <div class="circle-gratis"></div>
+                  </td>
+                  <td class="premium">
+                    <div class="circle-premium"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td id="funcion_3"></td>
+                  <td class="gratis">
+                    <div class="circle-gratis"></div>
+                  </td>
+                  <td class="premium">
+                    <div class="circle-premium"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td id="funcion_4"></td>
+                  <td class="gratis">
+                    <div class="circle-gratis-empty"></div>
+                  </td>
+                  <td class="premium">
+                    <div class="circle-premium"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td id="funcion_5"></td>
+                  <td class="gratis">
+                    <div class="circle-gratis-empty"></div>
+                  </td>
+                  <td class="premium">
+                    <div class="circle-premium"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td id="funcion_6"></td>
+                  <td class="gratis">
+                    <div class="circle-gratis-empty"></div>
+                  </td>
+                  <td class="premium">
+                    <div class="circle-premium"></div>
+                  </td>
+                </tr>
 
-
-
-
-
-
-
-
-
-
-
-
-      </section>
-    </main>
+              </tbody>
+            </table>
+          </div>
+  </section>
+  <section>
+    <div class="sec4">
+      
+    </div>
+  </section>
+</main>
 
 
 
@@ -138,5 +200,21 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyC496ol4uM3_gbVZBx6KZbm8PcLRi0EjhA",
+        authDomain: "playmusic-8a35c.firebaseapp.com",
+        databaseURL: "https://playmusic-8a35c.firebaseio.com",
+        projectId: "playmusic-8a35c",
+        storageBucket: "playmusic-8a35c.appspot.com",
+        messagingSenderId: "336980857918"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
