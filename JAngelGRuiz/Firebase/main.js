@@ -8,6 +8,7 @@ let ocupacion = document.getElementById("ocupacion");
 let genero = document.getElementById("genero");
 let uid = document.getElementById("uid");
 let btnBorrar = document.getElementById("borrar")
+let dataUsuario = document.getElementById("dataUsuario")
 
 const ref = firebase.database().ref("usuarios")
 
@@ -84,8 +85,8 @@ btnBorrar.addEventListener("click", ()=>{
 	let objeto = {
 		uid: uid.value
 	}
-
 	console.log(objeto)
+	
 	ref.child(uid.value).remove()
 	.then(() =>{
 		alert("Elemento Borrado");
@@ -94,7 +95,17 @@ btnBorrar.addEventListener("click", ()=>{
 	})
 })
 
-
+ref.on('value', function(data){  //on esta escuchando siempre y once no, sólo lo hace una vez
+	console.log("XD", data.val())
+	let dat = data.val()
+	let nombres = "";
+	for(let i in dat){
+		console.log(dat[i].nombre);
+		dataUsuario.innerHTML = dat[i].nombre;
+		nombres += dat[i].nombre + " ";
+	}
+	dataUsuario.innerHTML = nombres;
+})
 
 
 

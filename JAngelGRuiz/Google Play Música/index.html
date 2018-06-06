@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<title>Google Play Música</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white border border-bottom-0- borderlight">
+  <a class="navbar-brand" href="#">
+  	<img class="google-logo img-fluid mx-auto d-block" src="https://cdn-images-1.medium.com/max/1920/1*xxGVPP-vFSoIaOCXlZQ4Lw.png" alt="Google Play Music">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle savigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto justify-content-end apps">
+      <li class="nav-item active">
+	<div class="btn-group" role="group" aria-label="Basic example">
+  		<button type="button" class="btn btn-secondary text-dark bg-white border border-white">
+  			<i class="material-icons">
+			apps
+			</i>
+  		</button>
+  		<button type="button" class="btn btn-secondary text-dark bg-white border border-white">
+  			<i class="material-icons">
+				notifications
+			</i>
+  		</button>
+  		<button type="button" class="btn btn-secondary text-dark bg-white border border-white">
+  			<i class="material-icons">
+				people
+			</i>
+  		</button>
+	</div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+ <main class="container-fluid">
+    <section class="row inscription">
+      <div class="col-12">
+        <img class="logo img-fluid mx-auto d-block" alt="logo google play music" src="data:image/png;base64,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">
+      </div>
+      <div class="col-12">
+        <h1 class="text-center">Plan Familiar</h1>
+      </div>
+      <div class="col-12">
+        <h2 class="text-center">Primeros 30 días gratis</h2>
+      </div>
+      <div class="col-12">
+        <p class="free-pub text-center">Millones de canciones al alcance de tu mano sin </br>publicidad.</p>
+      </div>
+      <div class="col-12">
+        <div class="row">
+          <div class="col-8 offset-2 text-center col-md-3 offset-md-3 col-lg-2 offset-lg-4">
+            <div class="indivivual-inscription">
+              <div class="price">
+                <p class=" individual-price text-center">99$ al mes</p>
+              </div>
+              <button type="button" class="btn-package btn btn-danger">INDIVIDUAL</button>
+            </div>
+          </div>
+          <div class="col-8 offset-2 col-with-border text-center offset-md-0 col-md-3 col-lg-2">
+            <div class="family-pack">
+              <div class="price">
+                <p class="family-price">149,00$ al mes</p>
+                <p class="number-family ">Hasta 6 personas</p>
+              </div>
+              <button type="button" class="btn-package btn btn-danger">FAMILIAR</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-10 offset-1">
+        <div class="row row-conditions justify-content-center text-center">
+          <div>
+            <button type="button" class="btn-refuse btn btn-light">NO, GRACIAS</button>
+            <div class="conditions">
+              <input type="checkbox" aria-label="Checkbox for following text input" class="check">
+              <p class="spam text-center">Recibir noticias y ofertas de Google Play</p>
+              <p class="conditions-accept text-center text-black-50">Al registrarte, aceptas las
+                <a href="#" class="link-conditions text-black-50">condiciones de servicio de Google Play</a> y la
+                <a href="#" class="link-conditions text-black-50">política de privacidad de </br>Google</a> |
+                <a href="#" class="link-conditions text-black-50">Información del producto</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="row download-music">
+      <div class="col-12">
+        <h1 class="title-download-music text-center">Importa tu música</h1>
+        <p class="download-description text-center">Añade hasta 50.000 de canciones de tu ordenador</br> y reprodúcelas en streaming gratis estés donde</br>
+          estés.</p>
+      </div>
+    </section>
+    <section class="row row-comparison bg-light">
+      <div class="col-12">
+      <p></p>
+        <h1 class="title-comparison text-center">Qué incluye el servicio</h1>
+        <p></p>
+      </div>
+      <div class="col-12 col-md-8 offset-md-2 table-responsive">
+        <div class="row">
+          <div class="playlist col-10 offset-1 col-lg-4 offset-lg-0 text-center">
+            <img src="https://play-music.gstatic.com/fe/ade5cd87c1ec836e1dea3f870f4ac473/record.svg">
+            </img>
+            <p class="text-center">Accede a 40 millones canciones a</br> la carta y sin publicidad</p>
+          </div>
+          <div class="playlist col-10 offset-1 col-lg-4 offset-lg-0 text-center">
+            <img src="https://play-music.gstatic.com/fe/ade5cd87c1ec836e1dea3f870f4ac473/devices.svg">
+            </img>
+            <p class="text-center">Escucha tu contenido en todos tus dispositivos Android, iOS y en la</br> Web</p>
+          </div>
+          <div class="playlist col-10 offset-1 col-lg-4 offset-lg-0 text-center">
+            <img src="https://play-music.gstatic.com/fe/ade5cd87c1ec836e1dea3f870f4ac473/notes.svg">
+            </img>
+            <p class="text-center">Descarga el contenido que quieras</br> y escúchalo aunque no tengas</br> conexión</p>
+          </div>
+          <div class="col-md-12 col-lg-8 offset-lg-2 table-responsive"></div>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th class="col-6">Funciones</th>
+                  <th class="col-3 text-center">Gratis</th>
+                  <th class="col-3">Premium</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td id="sent"> </td>
+                  <td class="gratis">
+                    <div class="circle-gratis"></div>
+                  </td>
+                  <td class="premium">
+                    <div class="circle-premium"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td id="sent1"></td>
+                  <td class="gratis">
+                    <div class="circle-gratis"></div>
+                  </td>
+                  <td class="premium">
+                    <div class="circle-premium"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td id="sent2"></td>
+                  <td class="gratis">
+                    <div class="circle-gratis"></div>
+                  </td>
+                  <td class="premium">
+                    <div class="circle-premium"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td id="sent3"></td>
+                  <td class="gratis">
+                    <div class="circle-gratis-empty"></div>
+                  </td>
+                  <td class="premium">
+                    <div class="circle-premium"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td id="sent4"></td>
+                  <td class="gratis">
+                    <div class="circle-gratis-empty"></div>
+                  </td>
+                  <td class="premium">
+                    <div class="circle-premium"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td id="sent5"></td>
+                  <td class="gratis">
+                    <div class="circle-gratis-empty"></div>
+                  </td>
+                  <td class="premium">
+                    <div class="circle-premium"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td id="sent6"></td>
+                  <td class="gratis">
+                    <div class="circle-gratis-empty"></div>
+                  </td>
+                  <td class="premium">
+                    <div class="circle-premium"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td id="sent7"></td>
+                  <td class="gratis">
+                    <div class="circle-gratis-empty"></div>
+                  </td>
+                  <td class="premium">
+                    <div class="circle-premium">
+                    </div>
+                  </td>
+                </tr>
+                <td id="sent8">
+                  <a class="infos">.</a>
+                </td>
+                <td class="gratis">
+                  <div class="circle-gratis-empty"></div>
+                </td>
+                <td class="premium">
+                  <div class="circle-premium"></div>
+                </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="row bg-light">
+	<div class="col-10 offset-1">
+        <div class="row row-conditions justify-content-center text-center">
+          <div>
+            <div class="conditions">
+              <input type="checkbox" aria-label="Checkbox for following text input" class="check">
+              <p class="spam text-center">Recibir noticias y ofertas de Google Play</p>
+              <p class="text-center text-black-50 conditions-accept">Al registrarte, aceptas las Condiciones del servicio de Play y la Política de privacidad de Google | Información del producto</p>
+              </p>
+              <button type="button" class="btn-package btn btn-danger justify-content-center bg-primary border-white">SUSCRIBIRSE</button>
+            </div>
+          </div>
+        </div>
+     </div>
+    </section>
+
+  </main>
+
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBHI52bD8NE6K_ruP1q_i9CTFkL9qUsL54",
+    authDomain: "cintaroja20-c8fc3.firebaseapp.com",
+    databaseURL: "https://cintaroja20-c8fc3.firebaseio.com",
+    projectId: "cintaroja20-c8fc3",
+    storageBucket: "cintaroja20-c8fc3.appspot.com",
+    messagingSenderId: "85803761675"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src = "main.js"></script>
+
+</body>
+</html>

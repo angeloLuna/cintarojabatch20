@@ -1,0 +1,234 @@
+.nav{
+	width: 5%;
+}
+
+.google-logo{
+  width: 165px;
+  height: 40px;
+  padding-left: 15px;
+  padding-top: 5px;
+  margin-bottom: 0;
+}
+
+.apps{
+	width: 100%;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* NAViGATION */
+
+.navbar {
+  border-bottom: 1px solid #E8E8E8;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 2;
+}
+
+main {
+  padding-top: 65px;
+}
+
+.inscription {
+  padding-bottom: 32px;
+}
+
+.logo {
+  width: 185px;
+  height: 190px;
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+
+.free-pub {
+  font-size: 23px;
+  opacity: 0.54;
+}
+
+@media screen and (min-width: 576px) {
+  .col-with-border {
+    border-left: 2px solid #D0D0D0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .price {
+    margin: 1rem 0;
+  }
+}
+
+.price {
+  opacity: 0.54;
+  height: 3rem;
+  margin-bottom: 1rem;
+}
+
+.price p {
+  margin: 0;
+}
+
+.number-family {
+  opacity: 0.54;
+}
+
+@media screen and (max-width: 576px) {
+  .btn-package {
+    width: 5rem;
+    font-size: 16px;
+  }
+}
+
+.btn-package {
+  height: 3rem;
+  background-color: #ff5722;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  padding: 0.8rem 1.5rem;
+  min-width: 8rem;
+}
+
+.row-conditions {
+  padding-top: 30px;
+}
+
+.btn-refuse {
+  background-color: white;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  font-weight: 800;
+}
+
+.conditions {
+  padding-top: 15px;
+}
+
+.check {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.spam {
+  margin-bottom: 0;
+  margin-left: 5px;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.conditions-accept {
+  font-size: 10px;
+  margin-bottom: 0;
+}
+
+.link-conditions {
+  text-decoration: underline;
+  color: black;
+}
+
+/* SECTION DOWNLOAD */
+
+.download-music {
+  margin-bottom: 1px;
+  background-image: url('https://play-music.gstatic.com/fe/ade5cd87c1ec836e1dea3f870f4ac473/record4.svg');
+  background-color: #5c4ce5;
+  color: white;
+  height: 60vh;
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-size: auto 60%;
+  background-position: calc(110% + (330px - 20vw)) 120%;
+}
+
+.title-download-music {
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+.download-description {
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: .01em;
+  opacity: 0.54;
+}
+
+/* COMPARISON PREMIUM-GRATIS */
+
+.title-comparison {
+  letter-spacing: .02em;
+}
+
+img{
+  margin-bottom: 1rem;
+}
+.disc {
+
+  margin-bottom: 1rem;
+}
+
+.screen {
+  background-image: url('https://play-music.gstatic.com/fe/ade5cd87c1ec836e1dea3f870f4ac473/devices.svg');
+  background-position: 10vw;
+  height: 4.3rem;
+  background-repeat: no-repeat;
+  margin-bottom: 1rem;
+}
+
+.music-note {
+  background-image: url('https://play-music.gstatic.com/fe/ade5cd87c1ec836e1dea3f870f4ac473/notes.svg');
+  background-position: 6.6rem;
+  height: 4.3rem;
+  background-repeat: no-repeat;
+  margin-bottom: 0rem;
+}
+
+.table {
+  font-weight: 400;
+}
+
+td.gratis {
+  padding-left: 1.6rem;
+}
+
+td.premium {
+  padding-left: 2.2rem;
+}
+
+td {
+  font-size: 0.94rem;
+  color: #757575;
+}
+
+th {
+  font-size: 1rem;
+  border-top: none;
+  font-weight: bolder;
+  color: #757575;
+}
+
+.circle-gratis {
+  background-color: #85e6cd;
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  border-radius: 1.25rem;
+}
+
+.circle-gratis-empty {
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  border-radius: 1.25rem;
+  border: 1px solid #D0D0D0;
+}
+
+.circle-premium {
+  background-color: #536dfe;
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  border-radius: 1.25rem;
+}
+
+.infos {
+}
