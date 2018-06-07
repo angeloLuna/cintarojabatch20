@@ -39,3 +39,93 @@
 .texto{
   vertical-align: initial;
 }
+
+@media screen and (min-width: 576px) {
+  .col-with-border {
+    border-left: 2px solid #D0D0D0;
+  }
+}
+
+.price {
+  opacity: 0.54;
+  height: 3rem;
+  margin-bottom: 1rem;
+}
+
+.price p {
+  margin: 0;
+}
+
+.number-family {
+  opacity: 0.54;
+}
+
+.btn-package {
+  height: 3rem;
+  background-color: #ff5722;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  padding: 0.8rem 1.5rem;
+  min-width: 8rem;
+}
+
+.link-conditions {
+  text-decoration: underline;
+  color: black;
+}
+
+.conditions-accept {
+  font-size: 10px;
+  margin-bottom: 0;
+}
+
+.spam {
+  margin-bottom: 0;
+  margin-left: 5px;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.btn-ng{
+  background-color: #D0D0D0;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-weight: 800;
+}
+
+.importam{
+  text-align: center;
+  color: #D0D0D0;
+  margin-top: 150px;
+}
+
+.agrega{
+  text-align: center;
+  color: #D0D0D0;
+  opacity: 0.54;
+  line-height: 32px;
+  font-size: 24px;
+  letter-spacing: .01em;
+  margin: 14px auto 12px auto;
+  max-width: 600px;
+}
+
+.todaspartes{
+  background-color: #5c4ce5;
+  margin-top: 20px;
+  height: 500px;
+}
+
+.disco{
+  height: 200px;
+  float: right;
+}
+
+.serve{
+  text-align: center;
+  margin-top: 150px;
+}
+
+.record{
+  height: 60px;
+  justify-content: space-between;
+}
