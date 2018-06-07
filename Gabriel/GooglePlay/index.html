@@ -9,18 +9,41 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
   </head>
   <body>
-
-<head>
   <!-- Barra de navegación -->
-  <nav class="navbar navborder navbar-inverse navbar-fixed-top">
-      <a class="navbar-brand "> <img src="logobest.png" height="55px" width="170px"> </a>
-    <form class="form-inline">
-      <i class="material-icons md-24"> apps </i> &nbsp; &nbsp;
-      <i class="material-icons md-36"> notifications </i> &nbsp; &nbsp;
-      <div class="dropdown"> <i class="material-icons md-48"> account_circle </i> </div>
-    </form>
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <a class="navbar-brand" href="#">
+      <img class="google-play img-fluid mx-auto d-block" src="https://cdn-images-1.medium.com/max/1920/1*xxGVPP-vFSoIaOCXlZQ4Lw.png"
+        alt="Google play Music">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">
+            <i class="material-icons">apps</i>
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <i class="material-icons">
+              notification_important
+            </i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link avatar border border-white" href="https://www.youtube.com/watch?v=SkhCs-IDgS4&list=PLl-K7zZEsYLmnJ_FpMOZgyg6XcIGBu2OX&index=10">
+            <i class="material-icons">
+              account_circle
+            </i>
+          </a>
+        </li>
+      </ul>
+    </div>
   </nav>
-</head>
 
 <!-- Cuerpo -->
 <main>
@@ -74,19 +97,101 @@
             <div class="col-8 centro-uno offset-2">
               <br><br><br><br>
               <h2>Lo que obtendras</h2> <br>
-              <img src="file:///C:/Users/Gabriel/Desktop/Dev.f/Cinta%20Roja/Batch20CR/cintarojabatch20/Gabriel/Boostrap/GooglePlay/cool.png" alt="">
-              <ul class="lista list-unstyled">
-                <li><div class="s">Funciones</div><!--<div class="o">Gratis</div>Premium<div class="z"></div></li>-->
-                <li><div class="s">Recomendaciones que se adaptan a tus gustos </div><div></div><div></div></li>
-                <li><div class="s">Escucha tu música en Android, iOS y la Web </div><div></div><div></div></li>
-                <li><div class="s">Sube hasta 50.000 de tus canciones</div><div></div><div></div></li>
-                <li><div class="s">Radio para tu estado de ánimo, tu actividad y <br> diferentes situaciones</div><div></div><div></div></li>
-                <li><div class="s">Salta todas las canciones que quieras</div><div></div><div></div></li>
-                <li><div class="s">Escucha música sin publicidad de forma <br> ininterrumpida</div><div></div><div></div></li>
-                <li><div class="s">Accede a 40 millones canciones a la carta</div><div></div><div></div></li>
-                <li><div class="s">Descarga tu música y reprodúcela sin conexión</div><div></div><div></div></li>
-                <li><div class="s">Disfruta también de YouTube Red. Más información.</div><div></div><div></div></li>
-              </ul>
+              <!-- <div><img src="file:///C:/Users/Gabriel/Desktop/Dev.f/Cinta%20Roja/Batch20CR/cintarojabatch20/Gabriel/Boostrap/GooglePlay/cool.png" alt=""></div> -->
+              <br>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th class="col-6">Funciones</th>
+                    <th class="col-3 text-center">Gratis</th>
+                    <th class="col-3">Premium</th>
+                  </tr>
+                </thead>
+                <tbody id="object">
+                  <tr>
+                    <td id="sent"></td>
+                    <td class="gratis">
+                      <div class="circle-gratis"></div>
+                    </td>
+                    <td class="premium">
+                      <div class="circle-premium"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td id="sent1"> </td>
+                    <td class="gratis">
+                      <div class="circle-gratis"></div>
+                    </td>
+                    <td class="premium">
+                      <div class="circle-premium"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td id="sent2"></td>
+                    <td class="gratis">
+                      <div class="circle-gratis"></div>
+                    </td>
+                    <td class="premium">
+                      <div class="circle-premium"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td id="sent3"></td>
+                    <td class="gratis">
+                      <div class="circle-gratis-empty"></div>
+                    </td>
+                    <td class="premium">
+                      <div class="circle-premium"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td id="sent4"></td>
+                    <td class="gratis">
+                      <div class="circle-gratis-empty"></div>
+                    </td>
+                    <td class="premium">
+                      <div class="circle-premium"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td id="sent5"></td>
+                    <td class="gratis">
+                      <div class="circle-gratis-empty"></div>
+                    </td>
+                    <td class="premium">
+                      <div class="circle-premium"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td id="sent6"></td>
+                    <td class="gratis">
+                      <div class="circle-gratis-empty"></div>
+                    </td>
+                    <td class="premium">
+                      <div class="circle-premium"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td id="sent7"></td>
+                    <td class="gratis">
+                      <div class="circle-gratis-empty"></div>
+                    </td>
+                    <td class="premium">
+                      <div class="circle-premium">
+                      </div>
+                    </td>
+                  </tr>
+                  <td id="sent8"></td>
+                  <td class="gratis">
+                    <div class="circle-gratis-empty"></div>
+                  </td>
+                  <td class="premium">
+                    <div class="circle-premium"></div>
+                  </td>
+                  </tr>
+
+                </tbody>
+              </table>
               <br>
               <div class="form-check">
                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -120,6 +225,24 @@
 
 
 
+
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBL5LTXXZPb6PhJE5Xp0u5R1CPsL_qcegw",
+      authDomain: "gogpla-c3c66.firebaseapp.com",
+      databaseURL: "https://gogpla-c3c66.firebaseio.com",
+      projectId: "gogpla-c3c66",
+      storageBucket: "gogpla-c3c66.appspot.com",
+      messagingSenderId: "215981214593"
+    };
+    firebase.initializeApp(config);
+
+
+
+
+    </script>
     <script src="main.js"> </script>
   </body>
 </html>
