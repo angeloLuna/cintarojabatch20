@@ -1,0 +1,17 @@
+{
+  "name": "backgoogleplay",
+  "version": "1.0.0",
+  "description": "BackendGooglePlay",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "GooglePlay"
+  ],
+  "author": "Emiliano",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
