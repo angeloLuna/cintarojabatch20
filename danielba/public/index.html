@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <title>Google Play Música</title>
+  </head>
+  <body>
+    <header>
+      <nav class="col-12">
+        <div class="row" style="border-bottom: 1px grey solid">
+          <div class="col-3">
+            <img src="img/logo_googlemusica.png" class="logo_nav">
+          </div>
+          <div class="col-9 d-flex align-items-center justify-content-end">
+            <div class="row">
+              <div class="col-4 d-flex justify-content-end">
+                <i class="material-icons logo_apps">
+                  apps
+                </i>
+              </div>
+              <div class="col-7">
+                <button type="button" class="btn btn-primary btn-sm" id="login">Iniciar sesión</button>
+              </div>
+              <div class="col-1"></div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div>
+          <div class="d-flex justify-content-center">
+            <img class="logo_main" src="img/logo_main.jpg">
+          </div>
+          <div class="d-flex justify-content-center">
+            <img class="logo_nombre_main" src="https://play-music.gstatic.com/fe/ade5cd87c1ec836e1dea3f870f4ac473/SVG_es_wordmark_web_music.svg">
+          </div>
+        </div>
+        <div style="margin-top:18px">
+          <div class="d-flex justify-content-center">
+            <h2 class="h2">Tu estado de ánimo. Tus actividades. Tus gustos.</h2>
+          </div>
+          <div class="d-flex justify-content-center">
+            <h2 class="h2">Tu música favorita.</h2>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button type="button" class="btn btn-primary btn-lg boton_sec1">INICIAR SESIÓN</button>
+        </div>
+      </section>
+      <section>
+        <div class="sec2">
+          <div class="d-flex justify-content-center">
+            <h1 class="h1" style="margin-top: 210px">Importa tu música</h1>
+          </div>
+          <div class="d-flex justify-content-center">
+            <h2 class="h2_sec2" style="margin-top: 10px">Añade hasta 50.000 de canciones de tu ordenador</h2>
+          </div>
+          <div class="d-flex justify-content-center">
+            <h2 class="h2_sec2">y reprodúcelas en streaming gratis estés donde </h2>
+          </div>
+          <div class="d-flex justify-content-center">
+            <h2 class="h2_sec2">estés.</h2>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="sec3" style="">
+          <div class="d-flex justify-content-center">
+            <h1 class="h1_sec3" style="margin-top: 150px">Lo que obtendrás</h1>
+          </div>
+          <div class="col-12" style="margin-top: 40px">
+            <div class="row">
+              <div class="col-8 offset-2">
+                <div class="row">
+                  <div class="col-4 d-flex justify-content-center">
+                    <img src="img/disco.png" class="img_sec3" alt="">
+                  </div>
+                  <div class="col-4 d-flex justify-content-center">
+                    <img class="img_sec3" src="img/dispositivos.png" alt="">
+                  </div>
+                  <div class="col-4 d-flex justify-content-center">
+                    <img class="img_sec3" src="img/musica.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12" style="margin-top: 40px">
+            <div class="row">
+              <div class="col-8 offset-2">
+                <div class="row">
+                  <div class="col-4 d-flex justify-content-center">
+                    <h3 class="h3 d-flex justify-content-center">Accede a 40 millones canciones a <br> la carta y sin publicidad</h3>
+                  </div>
+                  <div class="col-4 d-flex justify-content-center">
+                    <h3 class="h3 d-flex justify-content-center">Escucha tu contenido en todos tus <br>dispositivos Android, iOS y en la<br> Web</h3>
+                  </div>
+                  <div class="col-4 d-flex justify-content-center">
+                    <h3 class="h3 d-flex justify-content-center">Descarga el contenido que quieras <br> y escúchalo aunque no tengas <br>conexión</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 offset-3 table-responsive" style="margin-top: 25px">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th class="col-6">Funciones</th>
+                  <th class="col-3 text-center">Gratis</th>
+                  <th class="col-3">Premium</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td id="funcion_1"></td>
+                  <td class="gratis">
+                    <div class="circle-gratis"></div>
+                  </td>
+                  <td class="premium">
+                    <div class="circle-premium"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td id="funcion_2"></td>
+                  <td class="gratis">
+                    <div class="circle-gratis"></div>
+                  </td>
+                  <td class="premium">
+                    <div class="circle-premium"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td id="funcion_3"></td>
+                  <td class="gratis">
+                    <div class="circle-gratis"></div>
+                  </td>
+                  <td class="premium">
+                    <div class="circle-premium"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td id="funcion_4"></td>
+                  <td class="gratis">
+                    <div class="circle-gratis-empty"></div>
+                  </td>
+                  <td class="premium">
+                    <div class="circle-premium"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td id="funcion_5"></td>
+                  <td class="gratis">
+                    <div class="circle-gratis-empty"></div>
+                  </td>
+                  <td class="premium">
+                    <div class="circle-premium"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td id="funcion_6"></td>
+                  <td class="gratis">
+                    <div class="circle-gratis-empty"></div>
+                  </td>
+                  <td class="premium">
+                    <div class="circle-premium"></div>
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+  </section>
+  <section>
+    <div class="sec4">
+      
+    </div>
+  </section>
+</main>
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyC496ol4uM3_gbVZBx6KZbm8PcLRi0EjhA",
+        authDomain: "playmusic-8a35c.firebaseapp.com",
+        databaseURL: "https://playmusic-8a35c.firebaseio.com",
+        projectId: "playmusic-8a35c",
+        storageBucket: "playmusic-8a35c.appspot.com",
+        messagingSenderId: "336980857918"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
