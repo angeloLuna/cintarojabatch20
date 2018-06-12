@@ -1,0 +1,14 @@
+{
+  "name": "backgoogleplay",
+  "version": "1.0.0",
+  "description": "Backend para GooglePLay",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miguel Angel Franco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
